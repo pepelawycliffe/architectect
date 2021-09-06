@@ -1,0 +1,9 @@
+{
+	"name": "Salvation",
+    "category": "Landing Page",
+    "includeBootstrap": false,
+    "classesToRemove": [
+    	"ftco-animated",
+    	"fadeInUp"
+    ]
+}

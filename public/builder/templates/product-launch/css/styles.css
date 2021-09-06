@@ -1,0 +1,242 @@
+﻿/*================================
+    GOOGLE FONT
+==================================*/
+
+@import url(https://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700); /* FREE GOOGLE FONTS */
+
+/*================================
+  GENERAL STYLES
+==================================*/
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pad-bottom {
+    padding-bottom: 90px;
+}
+
+
+.head-line h1 {
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 25px;
+    color: #737373;
+}
+
+.head-line hr {
+    width: 120px;
+    height: 3px;
+    border-top: 2px solid #FF9B00;
+}
+
+/*================================
+  BUTTON STYLES
+==================================*/
+.btn-custom {
+    min-height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin: 25px 5px 5px 0px;
+}
+
+
+.btn-one {
+    background-color: #FF9B00;
+    border: 5px solid #FF9B00;
+    color: #fff;
+}
+
+/*================================
+  HOME SECTION STYLES
+==================================*/
+
+#home {
+    background: url(../images/home.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+    #home .overlay {
+        padding-top: 100px;
+        background-color: rgba(0, 0, 0, 0.8);
+        min-height: 700px;
+        padding-bottom: 40px;
+    }
+
+    #home h1 {
+        margin-bottom: 70px;
+        line-height: 50px;
+        font-size: 40px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        border: 2px dashed #FF9B00;
+        padding: 20px;
+        max-width: 250px;
+        font-weight: 900;
+    }
+
+.logo-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#home h4 {
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+
+    #home h4 strong {
+        color: #FF9B00;
+    }
+
+
+a.btn-launch, a.btn-launch:hover, a.btn-launch:focus {
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #FF9B00;
+    border-color: #FF9B00;
+    margin-top: 35px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.icon-home {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #E75E68;
+    cursor: pointer;
+}
+
+    .icon-home a, .icon-home a:hover, .icon-home a:focus {
+        color: #FF9B00;
+        text-decoration: none;
+    }
+/*================================
+    HOME BELOW STYLES
+==================================*/
+#home-below {
+    background-color: rgba(234, 234, 234, 0.90);
+}
+
+    #home-below h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+/*================================
+  FEATURE SECTION STYLES
+==================================*/
+#features .media-body {
+    padding-left: 20px;
+}
+
+#features .feature-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#features .icon-wrapper {
+    font-size: 70px;
+    color: #8E8E8E;
+}
+
+/*================================
+    CLIENTS SECTION STYLES
+==================================*/
+
+#clients {
+    background: url(../images/clients.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+    #clients .overlay {
+        background-color: rgba(107, 77, 0, 0.8);
+    }
+
+.client-cover {
+    padding: 80px 50px 80px 50px;
+}
+/* CLIENTS TESTIMONIAL */
+
+#carousel-clients h4 {
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#carousel-clients h3 {
+    color: #FF9B00;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+#carousel-clients .clients-img {
+    border: 2px solid #FF9B00;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*================================
+    DOWNLOAD SECTION STYLES
+==================================*/
+#download p {
+    padding-top: 20px;
+}
+
+
+/*================================
+    BOTTOM SECTION STYLES
+ ============================  */
+#bottom {
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #fff;
+}
+
+    #bottom .social {
+        padding: 50px 2px;
+    }
+
+        #bottom .social a, #bottom .social a:hover, #bottom .social a:focus {
+            margin: 2px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.36);
+            color: #fff;
+            font-size: 25px;
+        }
+
+/*================================
+    FOOTER SECTION STYLES
+ ============================  */
+footer {
+    padding: 20px;
+    color: #FF9B00;
+    font-size: 16px;
+    background-color: rgba(16, 16, 16, 0.9);
+}
+
+    footer a, footer a:hover, footer a:focus {
+        color: #FF9B00;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px;
+    }

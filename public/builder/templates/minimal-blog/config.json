@@ -1,0 +1,6 @@
+{
+    "name": "Minimal Blog",
+    "category": "Blog",
+    "includeBootstrap": true,
+    "includeFontawesome": true
+}

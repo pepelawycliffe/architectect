@@ -1,0 +1,12 @@
+{
+    "name": "Arsha",
+    "category": "Landing Page",
+    "includeBootstrap": false,
+    "nodesToRestore": [
+    	"<div id=\"preloader\"></div>"
+    ],
+    "classesToRemove": [
+    	"aos-init",
+    	"aos-animate"
+    ]
+}

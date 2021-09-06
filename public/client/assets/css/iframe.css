@@ -1,0 +1,79 @@
+.container {
+  min-height: 50px;
+}
+
+.container:empty {
+  border: 1px dashed #d5dadf;
+  min-height: 200px;
+}
+
+.row {
+  min-height: 50px;
+}
+
+.row:empty {
+  border: 1px dashed #d5dadf;
+  min-height: 150px;
+  width: 100%;
+  min-width: 500px;
+}
+
+.dragging [class^='col-'],
+[class^='col-']:empty {
+  outline: 1px dashed #555 !important;
+  outline-offset: -1px !important;
+  box-shadow: inset 0 0 0 4px rgb(0 0 0 / 10%),
+    inset 0 0 0 4px rgb(255 255 255 / 20%),
+    inset 0 0 0 1px rgb(255 255 255 / 30%);
+}
+
+[class^='col-']:empty {
+  height: 75px;
+  min-width: 75px;
+}
+
+[class^='col-']:empty > .drop-placeholder {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  user-select: none;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+body > .row {
+  margin: 0;
+}
+
+form {
+  min-height: 50px;
+}
+
+form:empty:before {
+  pointer-events: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  content: 'Drag form elements here';
+  text-align: center;
+  background-color: #eee;
+  color: #d5dadf;
+  font-size: 22px;
+  border: 1px dashed #d5dadf;
+  padding-top: 33px;
+}
+
+[contenteditable='true'] {
+  outline: #404040 solid 2px;
+}
+
+.ar-drag-el {
+  opacity: 0.4 !important;
+}

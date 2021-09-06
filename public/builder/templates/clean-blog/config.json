@@ -1,0 +1,6 @@
+{
+    "name": "Clean Blog",
+    "category": "Blog",
+    "includeBootstrap": false,
+    "includeFontawesome": false
+}

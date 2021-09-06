@@ -1,0 +1,13 @@
+{
+    "name": "Bootslander",
+    "category": "Landing Page",
+    "includeBootstrap": false,
+    "includeFontawesome": false,
+    "nodesToRestore": [
+    	"<div id=\"preloader\"></div>"
+    ],
+    "classesToRemove": [
+    	"aos-init",
+    	"aos-animate"
+    ]
+}
